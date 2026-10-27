@@ -1,0 +1,25 @@
+{
+  "name": "zk-aadhaar-auth",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "server": "tsx src/server.ts",
+    "client": "tsx src/client.ts",
+    "setup": "bash scripts/setup.sh"
+  },
+  "dependencies": {
+    "@zk-email/circuits": "6.1.5",
+    "circom": "^0.5.46",
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "express": "4.21.2",
+    "snarkjs": "0.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/node": "22.10.0",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}

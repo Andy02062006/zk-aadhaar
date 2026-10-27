@@ -1,0 +1,13 @@
+node_modules/
+build/
+bin/
+*.ptau
+*.zkey
+*.r1cs
+*.wasm
+dist/
+.env
+*.log
+qr.png
+my_qr.txt
+*.bak
